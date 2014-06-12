@@ -1,0 +1,5 @@
+{
+	"scripts": {
+		"start": "node 02-first-view.js"
+	}
+}
