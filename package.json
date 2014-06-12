@@ -3,6 +3,6 @@
 		"node-static": "*"
 	},
 	"scripts": {
-		"start": "node 02-first-view.js"
+		"start": "node 03-first-view-dokku.js"
 	}
 }
