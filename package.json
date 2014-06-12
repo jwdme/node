@@ -1,4 +1,7 @@
 {
+	"dependencies": {
+		"node-static": "*"
+	},
 	"scripts": {
 		"start": "node 02-first-view.js"
 	}
