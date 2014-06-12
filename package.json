@@ -1,8 +1,8 @@
 {
-	"dependencies": {
-		"node-static": "*"
-	},
-	"scripts": {
-		"start": "node 03-first-view-dokku.js"
-	}
+    "dependencies": {
+        "node-static": "*"
+    },
+    "scripts": {
+        "start": "node 03-first-view-dokku.js"
+    }
 }

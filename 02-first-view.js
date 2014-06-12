@@ -7,10 +7,10 @@ var fv = require('./views/first-view.js');
 var url = require('url');
 
 http.createServer(function (req, res){
-	if (url.parse(req.url).pathname == '/first-view') {
-		fv.serve(req, res);
-	} else {
-		file.serve(req, res);
-	}
+    if (url.parse(req.url).pathname == '/first-view') {
+        fv.serve(req, res);
+    } else {
+        file.serve(req, res);
+    }
 }).listen(1337, '0.0.0.0');
 console.log('server running.');

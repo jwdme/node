@@ -8,10 +8,10 @@ var url = require('url');
 var port = process.env.PORT || 5000;
 
 http.createServer(function (req, res){
-	if (url.parse(req.url).pathname == '/first-view') {
-		fv.serve(req, res);
-	} else {
-		file.serve(req, res);
-	}
+    if (url.parse(req.url).pathname == '/first-view') {
+        fv.serve(req, res);
+    } else {
+        file.serve(req, res);
+    }
 }).listen(port, '0.0.0.0');
 console.log('server running on port ' + port);
